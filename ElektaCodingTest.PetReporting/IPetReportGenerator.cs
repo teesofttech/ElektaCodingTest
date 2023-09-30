@@ -1,6 +1,4 @@
-﻿using ElektaCodingTest.PetReporting.Models.Common;
-
-namespace ElektaCodingTest.PetReporting
+﻿namespace ElektaCodingTest.PetReporting
 {
     public interface IPetReportGenerator
     {

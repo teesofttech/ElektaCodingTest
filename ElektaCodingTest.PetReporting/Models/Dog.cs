@@ -1,6 +1,4 @@
-﻿using ElektaCodingTest.PetReporting.Models.Common;
-
-namespace ElektaCodingTest.PetReporting.Models
+﻿namespace ElektaCodingTest.PetReporting.Models
 {
     public class Dog : Pet
     {

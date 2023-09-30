@@ -1,6 +1,6 @@
-﻿using VeterinaryPracticeApp.Models.Common;
+﻿using ElektaCodingTest.PetReporting.Models.Common;
 
-namespace VeterinaryPracticeApp.Models
+namespace ElektaCodingTest.PetReporting.Models
 {
     public class Dog : Pet
     {

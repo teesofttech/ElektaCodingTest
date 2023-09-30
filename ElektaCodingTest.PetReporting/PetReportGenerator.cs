@@ -1,9 +1,9 @@
-﻿using VeterinaryPracticeApp.Models;
-using VeterinaryPracticeApp.Models.Common;
+﻿using ElektaCodingTest.PetReporting.Models;
+using ElektaCodingTest.PetReporting.Models.Common;
 
-namespace VeterinaryPracticeApp
+namespace ElektaCodingTest.PetReporting
 {
-    public class PetReportGenerator
+    public class PetReportGenerator : IPetReportGenerator
     {
         public void GenerateReport(IEnumerable<Pet> pets, string filename)
         {

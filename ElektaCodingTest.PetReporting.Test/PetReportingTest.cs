@@ -1,11 +1,9 @@
-using VeterinaryPracticeApp.Models.Common;
-
-namespace VeterinaryPracticeAppTest
+namespace ElektaCodingTest.PetReporting.Test
 {
-    public class VeterinaryReportTests
+    public class PetReportingTest
     {
         [Fact]
-        public void TestGeneratePetReport()
+        public void Pet_Report_Should_Return_Generate_CSV_Valid()
         {
             var pets = new List<Pet>
             {
@@ -19,8 +17,7 @@ namespace VeterinaryPracticeAppTest
 
             var outPets = File.ReadAllLines("PetsReport.csv");
 
-            Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(4, outPets.Length);
+            Assert.Equal(4, outPets.Length);
         }
     }
-
 }

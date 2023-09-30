@@ -1,4 +1,4 @@
-﻿namespace VeterinaryPracticeApp.Models.Common
+﻿namespace ElektaCodingTest.PetReporting.Models.Common
 {
     public abstract class Pet
     {

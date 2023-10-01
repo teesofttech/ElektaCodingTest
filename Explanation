@@ -1,0 +1,17 @@
+Explanation of Changes:
+
+The code has been organized into separate classes for Pets, Pet types (Dog and Cat), and the report generation logic.
+
+Property names have been capitalized (e.g., FirstName, LastName) for consistency and to follow C# naming conventions.
+
+A constructor has been added to the Pet class to ensure that pets are properly initialized when created.
+
+The unnecessary inheritance of the Pet class by the Owner class has been removed since it didn't serve any purpose in the context of this code.
+
+A dedicated PetReportGenerator class is responsible for generating the pet report, adhering to the Single Responsibility Principle (SRP).
+
+Meaningful variable and method names have been used, making the code more self-explanatory.
+
+The unit test Pet_Report_Should_Return_Generate_CSV_Valid has been added to validate the functionality of the code.
+
+These changes improve the code's readability, maintainability, and adherence to SOLID and clean code principles, as well as providing a more object-oriented structure.
